@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--back-color);
+    color: var(--font-color);
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    margin: 1.5em;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li {
+    margin: 0.5em 1em;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+#switch {
+    position: relative;
+    font-size: 2em;
+    top: -0.13em;
+    cursor: pointer;
+}
+div {
+    background-image: url(moon2.jpeg);
+    background-size: cover;
+    background-position-y: -20vh;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

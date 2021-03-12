@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 0.5fr;
+    height: 100vh;
+    row-gap: 1em;
+    column-gap: 1em;
+}
+
+.header {
+    grid-column: 1 / 4;
+    background-color: rgb(229, 229, 229);
+}
+.articles {
+    grid-row: 2 / 5;
+    background-color: rgb(229, 229, 229);
+}
+.footer {
+    grid-column: 1 / 4;
+    background-color: rgb(229, 229, 229);
+}

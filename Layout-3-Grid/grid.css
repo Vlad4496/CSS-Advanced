@@ -1,0 +1,35 @@
+.item {
+    padding: 1.5em;
+    border: 1px solid grey;
+    border-radius: 0.5em;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0.7em;
+}
+.A {
+    grid-column: 1 / span 2;
+}
+.B {
+    grid-column: 3 / span 3;
+}
+.D {
+    grid-column: 2 / span 3;
+    grid-row: 2;
+}
+.E {
+    grid-column: 1 / 6;
+}
+.F {
+    grid-column: 3 / 6;
+    grid-row: 2;
+    background-color: rgba(50, 60, 200, 0.5);
+    z-index: 6;
+}
